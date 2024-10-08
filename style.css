@@ -1,0 +1,112 @@
+body {
+  background-image: url('resources/bg.jpg');
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  height: 500px;
+  width: 300px;
+  background-color: #121826a6;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.albun {
+  background-image: url('resources/cover-1.png');
+  background-size: cover;
+  height: 260px;
+  width: 260px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.song-name {
+  font-size: 1rem;
+  color: #E5E7EB;
+}
+
+.albun-name {
+  font-size: 0.75rem;
+  color:#4D5562;
+}
+
+.load-bar {
+  width: 260px;
+}
+
+.times {
+  display: flex;
+  font-size: 0.625rem;
+  color: #4D5562;
+  width: 260px;
+  margin-top: 25px;
+}
+
+.repro {
+  width: 130px;
+  text-align: initial;
+}
+
+.remaining {
+  width: 130px;
+  text-align: end;
+}
+
+.load-bar {
+  background-color: #E5E7EB;
+  width: 260px;
+  height: 3px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.progress {
+  height: 3px;
+  width: 50%;
+  background-color: #C93B76;
+  border-radius: 10px;
+}
+
+.button {
+  margin-top: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+
+}
+
+.back {
+  background-image: url('resources/Stop_and_play_fill-1.svg');
+  background-size: cover;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.play-pause {
+  background-image: url('resources/Play_fill.svg');
+  background-size: cover;
+  background-color: #C93B76;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.next {
+  background-image: url('resources/Stop_and_play_fill.svg');
+  background-size: cover;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
